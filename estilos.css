@@ -87,13 +87,20 @@ body{
     box-shadow: 0 10px 15px var(--gradiente-4);
 }
 .container__content__form__email--error{
-    font-size: 00.85em;
+    font-size: 0.85em;
     margin: 8px 0 0 14px;
     color: var(--Soft-Red);
 }
 .attribution{ 
-    font-size: 11px; text-align: center; 
+    font-size: 14px; text-align: center; 
 }
 .attribution a{ 
     color: hsl(228, 45%, 44%); 
 }
+/* ------------------Desktop--------------------------- */
+@media (min-width:1440px) {
+    .container{
+        width: 1440px;
+        height: 800px;
+    }
+} /*minuto 1:34:48*/
